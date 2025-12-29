@@ -1,5 +1,5 @@
 # Qwen2VL-and-related-agents
-This is a presentation of the fine-tuning projects and agent results for qwen2vl-2B and qwen2.5vl-7B. It will be open-sourced in the future.
+This is a presentation of the fine-tuning projects and agent results for qwen2vl-2B and qwen2.5vl-7B. 
 ## Introduction
 Given an image containing a car, run "main.py", enter "your_figure_path.jpg" in the prompt to select the nearest car / the leftmost car / the rightmost car. Then, the following image will be obtained.
 <div style="display: flex; gap: 20px;">
