@@ -16,20 +16,31 @@ When you ask other questions, the agent will respond using the un-tuned qwen2.5V
 
 
 ## Requirements
-```python
+```
 torch>=2.0.0
 transformers>=4.37.0
 peft>=0.7.0
 accelerate>=0.21.0
 ```
 ## Installation
-```python
+```
 git clone https://github.com/yutianyuan-6/Qwen2VL-and-related-agents.git
 cd Qwen2VL-and-related-agents
 pip install -r requirements.txt
 ```
 ## Usage
-Run main.py
+1、download model to ./models/
+```
+pip install huggingface-hub
+# Qwen2.5-VL-7B
+huggingface-cli download Qwen/Qwen2.5-VL-7B-Instruct --local-dir ./Qwen/Qwen2.5-VL-7B-Instruct
+# Qwen2-VL-2B
+huggingface-cli download Qwen/Qwen2-VL-2B-Instruct --local-dir ./Qwen/Qwen2-VL-2B-Instruct
+```
+2、Place the query image in the root directory.
+
+3、Run main.py
+
 
 
 
